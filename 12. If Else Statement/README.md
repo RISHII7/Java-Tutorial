@@ -22,3 +22,24 @@ if (condition) {
 } else {
     // Code to execute if the condition is false
 }
+```
+
+## Introduction to Nested `if-else` Statements
+
+A nested `if-else` statement is an `if-else` structure placed inside another `if` or `else` block. This allows for the evaluation of additional conditions if the previous conditions are not met. Nested `if-else` statements are useful for handling multiple levels of decision-making in a program.
+
+## Syntax of Nested `if-else` Statements
+
+The basic syntax of nested `if-else` statements is as follows:
+
+```java
+if (condition1) {
+    // Code block for condition1 being true
+    if (condition2) {
+        // Code block for condition2 being true
+    } else {
+        // Code block for condition2 being false
+    }
+} else {
+    // Code block for condition1 being false
+}
