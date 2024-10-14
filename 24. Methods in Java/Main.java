@@ -27,7 +27,7 @@ public class Main {
         obj.playMusic();
 
         // Call the getMeAPen method with a cost of 10 and store the result
-        String src = obj.getMeAPen(10);
+        String src = obj.getMeAPen(2);
 
         // Print the result of getMeAPen
         System.out.println(src);
