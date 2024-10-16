@@ -34,7 +34,7 @@ class Human {
 
 // Main class to demonstrate the functionality of the Human class
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
         // Create an instance of the Human class
         Human obj = new Human(); // obj is initialized with default values (age=12, name="John")
         Human obj1 = new Human(); // obj1 is also initialized with default values
