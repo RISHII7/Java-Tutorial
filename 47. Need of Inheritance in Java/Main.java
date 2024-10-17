@@ -46,6 +46,7 @@ public class Main {
         car.numberOfDoors = 4;
         car.start(); // Inherited method from Vehicle class
         car.showCarDetails(); // Car-specific method
+        car.stop();
 
         System.out.println();
 
